@@ -42,3 +42,39 @@ levels:
         setup:
           watchers:
             - ../.bash_history
+  - id: '50'
+    steps:
+      - id: '50.1'
+        setup:
+          watchers:
+            - ../.bash_history
+  - id: '60'
+    steps:
+      - id: '60.1'
+        setup:
+          watchers:
+            - ../.bash_history
+  - id: '70'
+    steps:
+      - id: '70.1'
+        setup:
+          watchers:
+            - ../.bash_history
+  - id: '80'
+    steps:
+      - id: '80.1'
+        setup:
+          watchers:
+            - ../.bash_history
+  - id: '90'
+    steps:
+      - id: '90.1'
+        setup:
+          watchers:
+            - ../.bash_history
+  - id: '100'
+    steps:
+      - id: '100.1'
+        setup:
+          watchers:
+            - ../.bash_history
