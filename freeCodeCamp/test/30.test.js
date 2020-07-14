@@ -1,4 +1,4 @@
-const assert = require('assert');
+/*const assert = require('assert');
 const { getFileContents } = require('./utils');
 
 describe('Your "sql_reference.json" file', () => {
@@ -10,4 +10,4 @@ describe('Your "sql_reference.json" file', () => {
   it('should have the correct properties and values', async () => {
     assert(/^(r|reword) .[^ ]* feat: add \.gitignore and sample\.env/gm.test(rebaseFile));
   });
-});
+});*/
