@@ -53,7 +53,7 @@ levels:
       - id: '60.1'
         setup:
           watchers:
-            - ../.bash_history
+            - ../website/index.html
   - id: '70'
     steps:
       - id: '70.1'
