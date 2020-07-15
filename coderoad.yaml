@@ -53,7 +53,7 @@ levels:
       - id: '60.1'
         setup:
           watchers:
-            - ../website/index.html
+            - ../website
   - id: '70'
     steps:
       - id: '70.1'
