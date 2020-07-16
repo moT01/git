@@ -11,13 +11,8 @@
         "tap": "--reporter=mocha-tap-reporter"
       },
       "setup": {
-        "commands": [
-          "npm install",
-          "cd ../.. && sed -i \"s/HISTCONTROL=ignoreboth/#/\" .bashrc && echo placeholder >> .bashrc && sed -i \"s/placeholder/PROMPT_COMMAND='echo \"\\$PWD\" >> ~\\/project\\/freeCodeCamp\\/test\\/\\.cwd; history -a'/\" .bashrc && echo placeholder2 >> .bashrc && sed -i \"s/placeholder2/trap 'echo \\$BASH_COMMAND >> ~\\/project\\/freeCodeCamp\\/test\\/\\.next_command' DEBUG/\" .bashrc"
-        ],
-        "commits": [
-          "77bc47d73dd9aabbc0d7b944b8f6b9c10a8afe8c"
-        ]
+        "commands": ["npm install", "cd ../.. && sed -i \"s/HISTCONTROL=ignoreboth/#/\" .bashrc && echo placeholder >> .bashrc && sed -i \"s/placeholder/PROMPT_COMMAND='echo \"\\$PWD\" >> ~\\/project\\/freeCodeCamp\\/test\\/\\.cwd; history -a'/\" .bashrc && echo placeholder2 >> .bashrc && sed -i \"s/placeholder2/trap 'echo \\$BASH_COMMAND >> ~\\/project\\/freeCodeCamp\\/test\\/\\.next_command' DEBUG/\" .bashrc"],
+        "commits": ["77bc47d73dd9aabbc0d7b944b8f6b9c10a8afe8c"]
       },
       "directory": "freeCodeCamp"
     },
@@ -42,22 +37,13 @@
         {
           "id": "10.1",
           "setup": {
-            "watchers": [
-              "../.bash_history"
-            ],
-            "commits": [
-              "8aaf11bd40f7c02d0dc0bc1c8bbdffda0e37438e"
-            ]
+            "watchers": ["../.bash_history"],
+            "commits": ["8aaf11bd40f7c02d0dc0bc1c8bbdffda0e37438e"]
           },
           "content": "**THE FIRST THING YOU NEED TO DO IS RESTART THE TERMINAL.** Type `exit` into the terminal below and press enter. After that, open a new one by clicking the \"hamburger\" menu at the top left of the screen, going to the \"terminal\" section, and clicking \"new terminal\". Once you open a new one, type `echo git` into the terminal and press enter.",
-          "hints": [
-            "Follow the directions closely",
-            "If the tests don't pass, redo those instructions"
-          ],
+          "hints": ["Follow the directions closely", "If the tests don't pass, redo those instructions"],
           "solution": {
-            "commits": [
-              "3ee928ca09ef3745f739b75740d9a8a98e341273"
-            ]
+            "commits": ["3ee928ca09ef3745f739b75740d9a8a98e341273"]
           }
         }
       ]
@@ -71,24 +57,13 @@
         {
           "id": "20.1",
           "setup": {
-            "watchers": [
-              "../.bash_history"
-            ],
-            "commits": [
-              "6ecae252c13444f495ada758a3ca337c499f273f"
-            ]
+            "watchers": ["../.bash_history"],
+            "commits": ["6ecae252c13444f495ada758a3ca337c499f273f"]
           },
           "content": "I will be expecting you to do everything from the terminal for these lessons :smile: Use the terminal below to make a new directory named `git-practice` in the `project` folder. As a reminder, you can use the `mkdir` command to make a new folder.",
-          "hints": [
-            "Enter `mkdir git-practice` in the terminal",
-            "Don't try to create the folder with another method",
-            "Make sure you are in the `project` folder first",
-            "Enter `cd ~/project` to get to the `project` folder if you aren't there"
-          ],
+          "hints": ["Enter `mkdir git-practice` in the terminal", "Don't try to create the folder with another method", "Make sure you are in the `project` folder first", "Enter `cd ~/project` to get to the `project` folder if you aren't there"],
           "solution": {
-            "commits": [
-              "0124919565e0a2427c4b1f56183068308e3dc223"
-            ]
+            "commits": ["0124919565e0a2427c4b1f56183068308e3dc223"]
           }
         }
       ]
@@ -102,23 +77,13 @@
         {
           "id": "30.1",
           "setup": {
-            "watchers": [
-              "../.bash_history"
-            ],
-            "commits": [
-              "dd88de0aed191ef5ddc281b4d29d4db648d2f7bc"
-            ]
+            "watchers": ["../.bash_history"],
+            "commits": ["dd88de0aed191ef5ddc281b4d29d4db648d2f7bc"]
           },
           "content": "Use the \"change directory\" command in the terminal to change to your new folder.",
-          "hints": [
-            "Enter `cd git-practice` into the terminal",
-            "Make sure you are in the `project` folder first",
-            "Enter `cd ~/project` to get to the `project` folder if you aren't there"
-          ],
+          "hints": ["Enter `cd git-practice` into the terminal", "Make sure you are in the `project` folder first", "Enter `cd ~/project` to get to the `project` folder if you aren't there"],
           "solution": {
-            "commits": [
-              "ac983bba52ead6d8aa80b1e1cc4d2554064f7933"
-            ]
+            "commits": ["ac983bba52ead6d8aa80b1e1cc4d2554064f7933"]
           }
         }
       ]
@@ -132,23 +97,13 @@
         {
           "id": "40.1",
           "setup": {
-            "watchers": [
-              "../.bash_history"
-            ],
-            "commits": [
-              "b02009c38985a259c70567950f418d53e31e62ad"
-            ]
+            "watchers": ["../.bash_history"],
+            "commits": ["b02009c38985a259c70567950f418d53e31e62ad"]
           },
           "content": "This folder will be your git repository. To turn it into one, type `git init` into the terminal from this folder.",
-          "hints": [
-            "Enter `git init` into the terminal while in the `git-practice` folder",
-            "Make sure you are in the `git-practice` folder first",
-            "Enter `cd ~/project/git-practice` to get to the `git-practice` folder if you aren't there"
-          ],
+          "hints": ["Enter `git init` into the terminal while in the `git-practice` folder", "Make sure you are in the `git-practice` folder first", "Enter `cd ~/project/git-practice` to get to the `git-practice` folder if you aren't there"],
           "solution": {
-            "commits": [
-              "9092b98b6250a28bba4709eb8317b31ae5609269"
-            ]
+            "commits": ["9092b98b6250a28bba4709eb8317b31ae5609269"]
           }
         }
       ]
