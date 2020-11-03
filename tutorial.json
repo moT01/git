@@ -14,9 +14,6 @@
         "commands": [
           "npm install",
           "cd ../.. && sed -i \"s/HISTCONTROL=ignoreboth/#/\" .bashrc && echo placeholder >> .bashrc && sed -i \"s/placeholder/PROMPT_COMMAND='echo \"\\$PWD\" >> ~\\/project\\/freeCodeCamp\\/test\\/\\.cwd; history -a'/\" .bashrc && echo placeholder2 >> .bashrc && sed -i \"s/placeholder2/trap 'echo \\$BASH_COMMAND >> ~\\/project\\/freeCodeCamp\\/test\\/\\.next_command' DEBUG/\" .bashrc"
-        ],
-        "commits": [
-          "5b7a0d1d1b37a35249ebd0dc3137052527a6415c"
         ]
       },
       "directory": "freeCodeCamp"
@@ -30,7 +27,12 @@
         "name": "node",
         "version": ">=10"
       }
-    ]
+    ],
+    "setup": {
+      "commits": [
+        "edee66891e38b2269ed0a8da31b19913ce6f85d7"
+      ]
+    }
   },
   "levels": [
     {
@@ -46,19 +48,14 @@
               "../.bash_history"
             ],
             "commits": [
-              "70aba32229ea0ab7f99199044e30fa7e47a2a795"
+              "c068ee41b4f995e5e7ed88e7770983e43c94916d"
             ]
           },
           "content": "**THE FIRST THING YOU NEED TO DO IS RESTART THE TERMINAL.** Type `exit` into the terminal below and press enter. After that, open a new one by clicking the \"hamburger\" menu at the top left of the window, going to the \"terminal\" section, and clicking \"new terminal\". Once you open a new one, type `echo hello git` into the terminal and press enter.",
           "hints": [
             "Follow the directions closely",
             "If the tests don't pass, redo those instructions"
-          ],
-          "solution": {
-            "commits": [
-              "92de4cf62d6cc173ddfe8a541d135c79abff770f"
-            ]
-          }
+          ]
         }
       ]
     },
@@ -75,7 +72,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "fbff53fce65db3ae8eb29d0b6a1bbcb75852a48d"
+              "9b4ad21e67464585a7109e88a6cef3626f339e0a"
             ]
           },
           "content": "You should be in the `project` folder in the terminal you opened. Use the terminal to make a new directory named `website` in the `project` folder. As a reminder, you can use the `mkdir` command to make a new folder.",
@@ -83,12 +80,7 @@
             "Enter `mkdir website` in the terminal from the `project` folder",
             "Enter `cd ~/project` to get to the `project` folder if you aren't there",
             "Don't try to create the folder with another method"
-          ],
-          "solution": {
-            "commits": [
-              "905ceff42e314fa013db880218a6a84366e0d835"
-            ]
-          }
+          ]
         }
       ]
     },
@@ -105,7 +97,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "e21d4610b326f68d6d8dc00a4677f8772e95d551"
+              "cde87d627fcb87a0d4170fefd863a3da8f9bf539"
             ]
           },
           "content": "Use the \"change directory\" command in the terminal to change to your new folder.",
@@ -113,12 +105,7 @@
             "Enter `cd website` into the terminal",
             "Make sure you are in the `project` folder first",
             "Enter `cd ~/project` to get to the `project` folder if you aren't there"
-          ],
-          "solution": {
-            "commits": [
-              "6cdf34c43b7c3693eddc5ed119c25cdafe96cfa0"
-            ]
-          }
+          ]
         }
       ]
     },
@@ -135,7 +122,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "ca8720a3b907bde1e252c16648e95b6eefc72c3d"
+              "d6540ff2497dd8f704f52fb8eeaf944504f20b98"
             ]
           },
           "content": "This folder will be your git repository. To turn it into one, type `git init` into the terminal from this folder.",
@@ -143,12 +130,7 @@
             "Enter `git init` into the terminal while in the `git-practice` folder",
             "Make sure you are in the `git-practice` folder first",
             "Enter `cd ~/project/git-practice` to get to the `git-practice` folder if you aren't there"
-          ],
-          "solution": {
-            "commits": [
-              "c29fdf7bd1ef0e2676b0cd7d1707f4c1d254b477"
-            ]
-          }
+          ]
         }
       ]
     },
@@ -165,7 +147,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "f220b7b0e4421e2489f0424f0358bc5de5cf2dae"
+              "f382b5af8884db8fb24da8fc4910671709744cb9"
             ]
           },
           "content": "You can use `git status` to see the status of where you are with your repository. This command is your best friend.",
@@ -173,12 +155,7 @@
             "Type `git status` into the terminal and press enter",
             "Make sure you are in the `website` folder first",
             "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
-          ],
-          "solution": {
-            "commits": [
-              "a3cadb2f635d262bb6a421c6f46c1abc54993ccb"
-            ]
-          }
+          ]
         }
       ]
     },
@@ -195,19 +172,14 @@
               "../website"
             ],
             "commits": [
-              "ae3acb7d94b1b8d0bb96ab88b81a5f2a44ca367e"
+              "95ea229d1370da5a8d3289039543229efe23d999"
             ]
           },
           "content": "You are on the \"master\" branch with nothing to commit. Let's make something to commit! Create `index.html` in your website folder.",
           "hints": [
             "You can create the file from the command line with `touch index.html` while in the `website` folder",
             "Enter `cd ~/project/website` to get to the `website` folder"
-          ],
-          "solution": {
-            "commits": [
-              "2ebb6bab51296a93a379220c47552a21fa1098ca"
-            ]
-          }
+          ]
         }
       ]
     },
@@ -224,7 +196,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "670a9707e2466c3f81d8e4571d16fb2bdd3bf32d"
+              "7a762652271968a6190fb92279ec3d90bb0b7271"
             ]
           },
           "content": "Check your status again with `git status`",
@@ -232,12 +204,7 @@
             "Type `git status` into the terminal and press enter",
             "Make sure you are in the `website` folder first",
             "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
-          ],
-          "solution": {
-            "commits": [
-              "056212d96654fe44102441cc22fe1e5431d056d7"
-            ]
-          }
+          ]
         }
       ]
     },
@@ -254,7 +221,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "6fb110124cfb5d3372eb4a9129866fe90c54f992"
+              "96dc9116d600a41b37055ae1cf4ce7fb630f0e4d"
             ]
           },
           "content": "It shows the file you created as \"untracked\" because it didn't exist in the last commit. It takes two steps to commit it. The first step is to \"add\" it. Use `git add index.html` to add the file.",
@@ -262,12 +229,7 @@
             "Type `git add index.html` into the terminal and press enter",
             "Make sure you are in the `website` folder first",
             "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
-          ],
-          "solution": {
-            "commits": [
-              "9de19c502c95d741cddb00738882815e46727e34"
-            ]
-          }
+          ]
         }
       ]
     },
@@ -284,7 +246,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "e5bc683ab44512126d80f97357e9bcab47aa9338"
+              "da6075169dfa0f1193cc3f63d2c443888cbf1406"
             ]
           },
           "content": "Check the status again.",
@@ -293,12 +255,7 @@
             "Enter `git status` into the terminal",
             "Make sure you are in the `website` folder first",
             "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
-          ],
-          "solution": {
-            "commits": [
-              "b349855d1e00cf097984e2559b83f3494f844520"
-            ]
-          }
+          ]
         }
       ]
     },
@@ -315,7 +272,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "83563ee2a7303377b240296d13be41f7eb247ddf"
+              "fcad01d1f203d7d287c61e44dc8b903ae7bc41f2"
             ]
           },
           "content": "The file is now added and ready to be committed. Use `git commit -m \"message\"` to commit your changes. `-m` stands for message, and whatever you put in the quotes will be the message that goes with that commit. Commit your changes with the message, `my first commit`.",
@@ -323,12 +280,7 @@
             "Enter `git commit -m \"my first commit\" into the terminal",
             "Make sure you are in the `website` folder first",
             "Enter `cd ~/project/website` to get to the `website` folder if you aren't there"
-          ],
-          "solution": {
-            "commits": [
-              "15cd38bb2b5fa62e61f40983128ad5c69f2af4c0"
-            ]
-          }
+          ]
         }
       ]
     }
