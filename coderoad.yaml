@@ -33,7 +33,7 @@ levels:
       - id: '30.1'
         setup:
           watchers:
-            - ./.git/rebase-merge/git-rebase-todo
+            - ./.git/COMMIT_EDITMSG
   - id: '40'
     steps:
       - id: '40.1'
