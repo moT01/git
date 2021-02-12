@@ -5,16 +5,19 @@
     "description": "> Welcome to the introduction to git lessons. Git is a popular version control system that helps manage your code. Have fun!"
   },
   "config": {
+    "setup": {
+      "commands": [
+        "sudo cp ~/project/freeCodeCamp/.bashrc ~",
+        "cd freeCodeCamp && npm install"
+      ],
+      "commits": [
+        "0f41e89db7c21f425a5e029e739f477ee6e22980"
+      ]
+    },
     "testRunner": {
       "command": "./node_modules/.bin/mocha",
       "args": {
         "tap": "--reporter=mocha-tap-reporter"
-      },
-      "setup": {
-        "commands": [
-          "npm install",
-          "cd ../.. && sed -i \"s/HISTCONTROL=ignoreboth/#/\" .bashrc && echo placeholder >> .bashrc && sed -i \"s/placeholder/PROMPT_COMMAND='echo \"\\$PWD\" >> ~\\/project\\/freeCodeCamp\\/test\\/\\.cwd; history -a'/\" .bashrc && echo placeholder2 >> .bashrc && sed -i \"s/placeholder2/trap 'echo \\$BASH_COMMAND >> ~\\/project\\/freeCodeCamp\\/test\\/\\.next_command' DEBUG/\" .bashrc"
-        ]
       },
       "directory": "freeCodeCamp"
     },
@@ -27,12 +30,7 @@
         "name": "node",
         "version": ">=10"
       }
-    ],
-    "setup": {
-      "commits": [
-        "f8923cb6a035ebe8e7984007f92268ed1a035df1"
-      ]
-    }
+    ]
   },
   "levels": [
     {
@@ -48,7 +46,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "4a7bda7f94a1914114215583b62a401b0e5759c6"
+              "51b1a6cd39e71daade93708fc1b40ad5a23abc7b"
             ]
           },
           "content": "**THE FIRST THING YOU NEED TO DO IS RESTART THE TERMINAL.** Type `exit` into the terminal below and press enter. After that, open a new one by clicking the \"hamburger\" menu at the top left of the window, going to the \"terminal\" section, and clicking \"new terminal\". Once you open a new one, type `echo hello git` into the terminal and press enter.\nMake some commits",
@@ -69,10 +67,10 @@
           "id": "20.1",
           "setup": {
             "watchers": [
-              "./.freeCodeCamp/test/.next_command"
+              "./freeCodeCamp/test/.next_command"
             ],
             "commits": [
-              "b037eecc17a850d47295aa68ea15be85e0deba69"
+              "9f751c0d1cdfbb3416673f97240f671603b84c4d"
             ]
           },
           "content": "You should be in the `project` folder in the terminal you opened. Use the terminal to make a new directory named `website` in the `project` folder. As a reminder, you can use the `mkdir` command to make a new folder.\n\ngit rir",
@@ -97,7 +95,7 @@
               "./.git/rebase-merge/done"
             ],
             "commits": [
-              "23d7fcfbc3615c23a9d37a7b88240b2b9400284d"
+              "8e3263603c315ca50b93ea5e42007c17a856ea31"
             ]
           },
           "content": "Use the \"change directory\" command in the terminal to change to your new folder.\n\nreword",
@@ -122,7 +120,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "50f008cf7b0460769659c62fd93d10b1d0adf560"
+              "dd00bf1e1466170c6ee9b44c90fed05e928eb6fc"
             ]
           },
           "content": "This folder will be your git repository. To turn it into one, type `git init` into the terminal from this folder.\n\nchange commit message",
@@ -147,7 +145,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "58d84063feacca235ccc01e462cdb25a5d714300"
+              "caab2ce9d10d8a735a53e92649480c9e17693f5f"
             ]
           },
           "content": "You can use `git status` to see the status of where you are with your repository. This command is your best friend.",
@@ -172,7 +170,7 @@
               "../website"
             ],
             "commits": [
-              "0aa1d11491347c76590846de00806c16de39f944"
+              "4ded421e6781a27dd2c507a13d17c90a404403f2"
             ]
           },
           "content": "You are on the \"master\" branch with nothing to commit. Let's make something to commit! Create `index.html` in your website folder.",
@@ -196,7 +194,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "b4bb500b7eea8234f4d2422a82e214c4935afd00"
+              "abe0729789174d9e5dbf774cdea1179f02ebd2f7"
             ]
           },
           "content": "Check your status again with `git status`",
@@ -221,7 +219,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "eeaf0a735889b10f37961fba2e7aab58597c43c2"
+              "da231ff02409f15a55976b8ac29892e0a81ed765"
             ]
           },
           "content": "It shows the file you created as \"untracked\" because it didn't exist in the last commit. It takes two steps to commit it. The first step is to \"add\" it. Use `git add index.html` to add the file.",
@@ -246,7 +244,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "ba6520d5bd4f84ea6d8621c9304bae03f8a61581"
+              "2bca1e483187617ea8fe504a172900832922f571"
             ]
           },
           "content": "Check the status again.",
@@ -272,7 +270,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "894c240374f9780bf5bc6506a33f7c258fb260ca"
+              "306fdf448db102f55268745a4fafb8c44f72e4f2"
             ]
           },
           "content": "The file is now added and ready to be committed. Use `git commit -m \"message\"` to commit your changes. `-m` stands for message, and whatever you put in the quotes will be the message that goes with that commit. Commit your changes with the message, `my first commit`.",
