@@ -92,7 +92,7 @@
           "id": "30.1",
           "setup": {
             "watchers": [
-              "./.git/COMMIT_EDITMSG"
+              "./.git/logs/HEAD"
             ],
             "commits": [
               "1aae625e222624281894148d740652182e005f7b"
