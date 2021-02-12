@@ -30,7 +30,7 @@
     ],
     "setup": {
       "commits": [
-        "edee66891e38b2269ed0a8da31b19913ce6f85d7"
+        "f8923cb6a035ebe8e7984007f92268ed1a035df1"
       ]
     }
   },
@@ -48,10 +48,10 @@
               "../.bash_history"
             ],
             "commits": [
-              "c068ee41b4f995e5e7ed88e7770983e43c94916d"
+              "4a7bda7f94a1914114215583b62a401b0e5759c6"
             ]
           },
-          "content": "**THE FIRST THING YOU NEED TO DO IS RESTART THE TERMINAL.** Type `exit` into the terminal below and press enter. After that, open a new one by clicking the \"hamburger\" menu at the top left of the window, going to the \"terminal\" section, and clicking \"new terminal\". Once you open a new one, type `echo hello git` into the terminal and press enter.",
+          "content": "**THE FIRST THING YOU NEED TO DO IS RESTART THE TERMINAL.** Type `exit` into the terminal below and press enter. After that, open a new one by clicking the \"hamburger\" menu at the top left of the window, going to the \"terminal\" section, and clicking \"new terminal\". Once you open a new one, type `echo hello git` into the terminal and press enter.\nMake some commits",
           "hints": [
             "Follow the directions closely",
             "If the tests don't pass, redo those instructions"
@@ -69,13 +69,13 @@
           "id": "20.1",
           "setup": {
             "watchers": [
-              "../.bash_history"
+              "./.freeCodeCamp/test/.next_command"
             ],
             "commits": [
-              "9b4ad21e67464585a7109e88a6cef3626f339e0a"
+              "b037eecc17a850d47295aa68ea15be85e0deba69"
             ]
           },
-          "content": "You should be in the `project` folder in the terminal you opened. Use the terminal to make a new directory named `website` in the `project` folder. As a reminder, you can use the `mkdir` command to make a new folder.",
+          "content": "You should be in the `project` folder in the terminal you opened. Use the terminal to make a new directory named `website` in the `project` folder. As a reminder, you can use the `mkdir` command to make a new folder.\n\ngit rir",
           "hints": [
             "Enter `mkdir website` in the terminal from the `project` folder",
             "Enter `cd ~/project` to get to the `project` folder if you aren't there",
@@ -94,13 +94,13 @@
           "id": "30.1",
           "setup": {
             "watchers": [
-              "../.bash_history"
+              "./.git/rebase-merge/done"
             ],
             "commits": [
-              "cde87d627fcb87a0d4170fefd863a3da8f9bf539"
+              "23d7fcfbc3615c23a9d37a7b88240b2b9400284d"
             ]
           },
-          "content": "Use the \"change directory\" command in the terminal to change to your new folder.",
+          "content": "Use the \"change directory\" command in the terminal to change to your new folder.\n\nreword",
           "hints": [
             "Enter `cd website` into the terminal",
             "Make sure you are in the `project` folder first",
@@ -122,10 +122,10 @@
               "../.bash_history"
             ],
             "commits": [
-              "d6540ff2497dd8f704f52fb8eeaf944504f20b98"
+              "50f008cf7b0460769659c62fd93d10b1d0adf560"
             ]
           },
-          "content": "This folder will be your git repository. To turn it into one, type `git init` into the terminal from this folder.",
+          "content": "This folder will be your git repository. To turn it into one, type `git init` into the terminal from this folder.\n\nchange commit message",
           "hints": [
             "Enter `git init` into the terminal while in the `git-practice` folder",
             "Make sure you are in the `git-practice` folder first",
@@ -147,7 +147,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "f382b5af8884db8fb24da8fc4910671709744cb9"
+              "58d84063feacca235ccc01e462cdb25a5d714300"
             ]
           },
           "content": "You can use `git status` to see the status of where you are with your repository. This command is your best friend.",
@@ -172,7 +172,7 @@
               "../website"
             ],
             "commits": [
-              "95ea229d1370da5a8d3289039543229efe23d999"
+              "0aa1d11491347c76590846de00806c16de39f944"
             ]
           },
           "content": "You are on the \"master\" branch with nothing to commit. Let's make something to commit! Create `index.html` in your website folder.",
@@ -196,7 +196,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "7a762652271968a6190fb92279ec3d90bb0b7271"
+              "b4bb500b7eea8234f4d2422a82e214c4935afd00"
             ]
           },
           "content": "Check your status again with `git status`",
@@ -221,7 +221,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "96dc9116d600a41b37055ae1cf4ce7fb630f0e4d"
+              "eeaf0a735889b10f37961fba2e7aab58597c43c2"
             ]
           },
           "content": "It shows the file you created as \"untracked\" because it didn't exist in the last commit. It takes two steps to commit it. The first step is to \"add\" it. Use `git add index.html` to add the file.",
@@ -246,7 +246,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "da6075169dfa0f1193cc3f63d2c443888cbf1406"
+              "ba6520d5bd4f84ea6d8621c9304bae03f8a61581"
             ]
           },
           "content": "Check the status again.",
@@ -272,7 +272,7 @@
               "../.bash_history"
             ],
             "commits": [
-              "fcad01d1f203d7d287c61e44dc8b903ae7bc41f2"
+              "894c240374f9780bf5bc6506a33f7c258fb260ca"
             ]
           },
           "content": "The file is now added and ready to be committed. Use `git commit -m \"message\"` to commit your changes. `-m` stands for message, and whatever you put in the quotes will be the message that goes with that commit. Commit your changes with the message, `my first commit`.",
