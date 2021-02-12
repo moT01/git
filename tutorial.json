@@ -92,7 +92,7 @@
           "id": "30.1",
           "setup": {
             "watchers": [
-              "./.git/rebase-merge/done"
+              "./.git/rebase-merge/git-rebase-todo"
             ],
             "commits": [
               "5d4bd896ff6a3b2c5fb6b1911e310e133bba886b"
