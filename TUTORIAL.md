@@ -7,6 +7,7 @@
 ### 10.1
 
 **THE FIRST THING YOU NEED TO DO IS RESTART THE TERMINAL.** Type `exit` into the terminal below and press enter. After that, open a new one by clicking the "hamburger" menu at the top left of the window, going to the "terminal" section, and clicking "new terminal". Once you open a new one, type `echo hello git` into the terminal and press enter.
+Make some commits
 
 #### HINTS
 
@@ -18,6 +19,8 @@
 ### 20.1
 
 You should be in the `project` folder in the terminal you opened. Use the terminal to make a new directory named `website` in the `project` folder. As a reminder, you can use the `mkdir` command to make a new folder.
+
+git rir
 
 #### HINTS
 
@@ -31,6 +34,8 @@ You should be in the `project` folder in the terminal you opened. Use the termin
 
 Use the "change directory" command in the terminal to change to your new folder.
 
+reword
+
 #### HINTS
 
 - Enter `cd website` into the terminal
@@ -42,6 +47,8 @@ Use the "change directory" command in the terminal to change to your new folder.
 ### 40.1
 
 This folder will be your git repository. To turn it into one, type `git init` into the terminal from this folder.
+
+change commit message
 
 #### HINTS
 
